@@ -1,0 +1,55 @@
+/* Link styles */
+nav a {
+    color: #007BFF;  /* Set color of links */
+    text-decoration: none;  /* Remove underline */
+}
+
+nav a:hover {
+    color: #FF6347;  /* Change color on hover */
+    text-decoration: underline;  /* Add underline on hover */
+}
+
+/* Google Font (Roboto) */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling HTML tags */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Classes */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Grid Image Gallery */
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Box Shadow Example */
+.box {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
