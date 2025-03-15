@@ -16,9 +16,12 @@ body {
 
 /* Styling HTML tags */
 h1 {
-    background-color: #f0f0f0;
     color: #333;
     font-size: 2.5em;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 5px;
 }
 
 p {
