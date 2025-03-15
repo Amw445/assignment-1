@@ -49,17 +49,17 @@ p {
 }
 
 /* Grid Image Gallery */
-#grid-gallery {
+.grid-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
 
-#grid-gallery img {
+.grid-gallery img {
     width: 100%;
     border-radius: 8px;
 }
-#music-career img {
+.music-career img {
     width: 200px;
     clip-path: circle(50% at center); 
     border-radius: 8px;  
