@@ -31,10 +31,8 @@ p {
     background-color: #f0f0f0;  /* Light background from .highlight */
     padding: 5px;  /* Padding from highlight */
 }
-.one.two {
 
-    color: white;  
-}
+
 .two a {
     background-color: #333;  
     color: white; 
