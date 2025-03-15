@@ -26,12 +26,24 @@ p {
     color: #555;
 }
 
-/* Classes */
-.highlight {
-    background-color: #f0f0f0;
-    padding: 5px;
+
+.one {
+    background-color: #f0f0f0;  /* Light background from .highlight */
+    padding: 5px;  /* Padding from highlight */
+}
+.one.two {
+
+    color: white;  
+}
+.two a {
+    background-color: #333;  
+    color: white; 
+    text-decoration: none;  
 }
 
+.two a:hover {
+    text-decoration: underline; 
+}
 .bold-text {
     font-weight: bold;
     font-size: 1.2em;
