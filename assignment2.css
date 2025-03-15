@@ -8,7 +8,9 @@ nav a:hover {
     color: #FF6347;  /* Change color on hover */
     text-decoration: underline;  /* Add underline on hover */
 }
-
+nav ul {
+    list-style-type: none;  
+}
 /* Google Font (Roboto) */
 body {
     font-family: 'Roboto', sans-serif;
